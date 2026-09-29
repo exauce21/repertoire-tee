@@ -306,7 +306,7 @@
     <div class="rtee-dtab-content ${ct === "tee" ? "active" : ""}" data-content="tee">
       <div class="rtee-tee-box">
         <div class="rtee-tee-grid">
-          <div class="rtee-info-row"><div class="rtee-info-lbl">Nom</div><div class="rtee-info-val">${ICO.user} ${e.coordonnateur_tee || "—"}</div></div>
+          <div class="rtee-info-row"><div class="rtee-info-lbl">Nom</div><div class="rtee-info-val">${ICO.user} ${e.coordonnateur_tee || "-"}</div></div>
           <div class="rtee-info-row"><div class="rtee-info-lbl">Courriel</div><div class="rtee-info-val">${ICO.mail} ${e.courriel_tee ? `<a href="mailto:${X(e.courriel_tee)}">${X(e.courriel_tee)}</a>` : "—"}</div></div>
           <div class="rtee-info-row"><div class="rtee-info-lbl">Téléphone</div><div class="rtee-info-val">${ICO.phone} ${e.telephone_tee ? `<a href="tel:${X(e.telephone_tee)}">${X(e.telephone_tee)}</a>` : "—"}</div></div>
         </div>
@@ -314,7 +314,7 @@
     </div>
     <div class="rtee-dtab-content ${ct === "niveaux" ? "active" : ""}" data-content="niveaux">
       <div class="rtee-info-row" style="grid-column:1/-1">
-        <div class="rtee-info-lbl">Niveaux — ${X(cleanNiveaux(e.niveaux)) || "—"}</div>${nivHTML}
+        <div class="rtee-info-lbl">Niveaux ${X(cleanNiveaux(e.niveaux)) || "—"}</div>${nivHTML}
       </div>
     </div>
     <div class="rtee-dtab-content ${ct === "ecole" ? "active" : ""}" data-content="ecole">
