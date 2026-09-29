@@ -353,7 +353,7 @@ body {
 .rtee-section-hdr h3 {
   font-family: "Helvetica", sans-serif;
   font-weight: 800;
-  font-size: 0.93rem;
+  font-size: 20px;
   color: var(--txt);
   margin: 0;
 }
@@ -361,7 +361,7 @@ body {
   background: var(--rouge);
   color: #fff;
   border-radius: 50px;
-  padding: 1px 9px;
+  padding: 5px 8px;
   font-size: 0.69rem;
   font-weight: 700;
   font-family: "Helvetica", sans-serif;
