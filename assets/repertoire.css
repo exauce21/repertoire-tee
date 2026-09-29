@@ -57,12 +57,10 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
-
   border: 1.5px solid var(--border);
   border-radius: 50px;
   padding: 6px 13px;
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 18px;
   color: var(--txt2);
   transition: all 0.15s;
   white-space: nowrap;

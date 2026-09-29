@@ -452,7 +452,8 @@ function rtee_render_iframe_page()
     <script src="<?php echo esc_url($js_url); ?>?v=<?php echo time(); ?>"></script>
   </body>
 
-  </html><?php
+  </html>
+  <?php
         }
 
         add_shortcode('repertoire_tee', 'rtee_shortcode');
@@ -461,17 +462,18 @@ function rtee_render_iframe_page()
           $iframe_url = add_query_arg(['action' => 'rtee_iframe'], admin_url('admin-ajax.php'));
           $height = '780px';
           return '<iframe src="' . esc_url($iframe_url) . '" style="width:100%;height:' . $height . ';border:none;display:block;" frameborder="0" scrolling="no" id="rtee-iframe" allowfullscreen></iframe>
-<script>
-window.addEventListener("message", function(e) {
-  if (e.data && e.data.rteeHeight) {
-    document.getElementById("rtee-iframe").style.height = e.data.rteeHeight + "px";
-  }
-});
-</script>';
+          <script>
+          window.addEventListener("message", function(e) {
+            if (e.data && e.data.rteeHeight) {
+              document.getElementById("rtee-iframe").style.height = e.data.rteeHeight + "px";
+            }
+          });
+          </script>';
         }
 
         function rtee_shortcode_html()
-        { ?>
+        { 
+  ?>
   <div id="rtee-app">
     <div class="rtee-filtres-bar">
       <div class="rtee-fpill" id="rtee-pill-type">
@@ -649,7 +651,7 @@ window.addEventListener("message", function(e) {
               <tspan x="48" y="0">.</tspan>
             </text>
             <text class="rtee-prov-label cls-2 region-rouge" transform="translate(369.23 789.13)">
-              <tspan x="0" y="0">SASK.</tspan>
+              <tspan x="0" y="0">SASK</tspan>
             </text>
             <text class="rtee-prov-label cls-2 region-eucal" transform="translate(1021.43 655.74)">
               <tspan class="cls-4" x="0" y="0">T</tspan>
@@ -666,8 +668,6 @@ window.addEventListener("message", function(e) {
               <tspan x="0" y="0">YN</tspan>
             </text>
           </svg>
-
-
           <div class="rtee-legende">
             <div class="rtee-legende-item">
               <span class="rtee-legende-dot" style="background:#1F36C2;"></span>
