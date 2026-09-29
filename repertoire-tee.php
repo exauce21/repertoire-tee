@@ -454,6 +454,7 @@ function rtee_render_iframe_page()
 
   </html>
   <?php
+  exit;
         }
 
         add_shortcode('repertoire_tee', 'rtee_shortcode');
