@@ -305,7 +305,6 @@
     </div>
     <div class="rtee-dtab-content ${ct === "tee" ? "active" : ""}" data-content="tee">
       <div class="rtee-tee-box">
-        <div class="rtee-tee-title">${ICO.star} Service TÉÉ opéré par</div>
         <div class="rtee-tee-grid">
           <div class="rtee-info-row"><div class="rtee-info-lbl">Nom</div><div class="rtee-info-val">${ICO.user} ${e.coordonnateur_tee || "—"}</div></div>
           <div class="rtee-info-row"><div class="rtee-info-lbl">Courriel</div><div class="rtee-info-val">${ICO.mail} ${e.courriel_tee ? `<a href="mailto:${X(e.courriel_tee)}">${X(e.courriel_tee)}</a>` : "—"}</div></div>

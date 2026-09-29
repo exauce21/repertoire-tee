@@ -16,7 +16,6 @@
 
 body {
   font-family: "Helvetica", sans-serif;
-  background: #f5f7fc;
   color: #111533;
 }
 
@@ -160,10 +159,8 @@ body {
 
 /* ── CARTE ── */
 .rtee-carte-panel {
-  background: var(--bg);
   display: flex;
   flex-direction: column;
-  border-right: 1.5px solid #c8d0e8;
   overflow: hidden;
 }
 .rtee-carte-inner {
@@ -522,8 +519,7 @@ body {
 }
 .rtee-dtab {
   padding: 7px 10px;
-  font-size: 0.71rem;
-  font-weight: 700;
+  font-size: 12px;
   color: var(--txt3);
   cursor: pointer;
   border-bottom: 2px solid transparent;
@@ -555,14 +551,13 @@ body {
   gap: 2px;
 }
 .rtee-info-lbl {
-  font-size: 0.64rem;
-  font-weight: 700;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: var(--txt3);
 }
 .rtee-info-val {
-  font-size: 0.78rem;
+  font-size: 14px;
   color: var(--txt);
   font-weight: 500;
   display: flex;
@@ -579,17 +574,12 @@ body {
 }
 .rtee-tee-box {
   grid-column: 1/-1;
-  background: linear-gradient(135deg, #eef1fb, #e8edf8);
-  border: 1.5px solid #c8d0e8;
-  border-radius: 9px;
   padding: 10px 12px;
 }
 .rtee-tee-title {
   font-family: "Helvetica", sans-serif;
-  font-size: 0.69rem;
-  font-weight: 800;
+  font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 0.6px;
   color: var(--bleu);
   margin-bottom: 7px;
   display: flex;
