@@ -476,6 +476,7 @@ function rtee_render_iframe_page()
         { 
   ?>
   <div id="rtee-app">
+    <div class="rtee-layout">
     <div class="rtee-filtres-bar">
       <div class="rtee-fpill" id="rtee-pill-type">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
@@ -552,7 +553,6 @@ function rtee_render_iframe_page()
       <span class="rtee-count-chip" id="rtee-count-chip" style="display:none"></span>
     </div>
 
-    <div class="rtee-layout">
       <div class="rtee-carte-panel">
         <div class="rtee-carte-inner">
           <div class="rtee-carte-title">
