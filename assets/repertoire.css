@@ -142,13 +142,34 @@ body {
   color: var(--rouge);
 }
 .rtee-count-chip {
-  margin-left: 0;
-  background: var(--mango);
-  color: var(--maas);
-  border-radius: 50px;
-  padding: 3px 13px;
+  width: 104px;
+  height: 104px;
+  flex: 0 0 104px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  align-self: center;
+  border: 1px solid var(--bleu2);
+  border-radius: 8px;
+  background: var(--bleu);
+  color: #fff;
   font-family: "Helvetica", sans-serif;
-  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+}
+.rtee-count-chip svg {
+  width: 28px;
+  height: 28px;
+  color: var(--mango);
+}
+.rtee-count-chip strong {
+  font-size: 24px;
+  font-weight: 800;
+}
+.rtee-count-chip span {
+  font-size: 12px;
+  font-weight: 600;
 }
 
 /* ── LAYOUT ── */

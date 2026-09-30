@@ -550,7 +550,7 @@ function rtee_render_iframe_page()
         Rechercher
       </button>
       <button class="rtee-btn-reset" id="rtee-btn-reset">Effacer</button>
-      <span class="rtee-count-chip" id="rtee-count-chip" style="display:none"></span>
+      <div class="rtee-count-chip" id="rtee-count-chip" style="display:none"></div>
     </div>
 
       <div class="rtee-carte-panel">
