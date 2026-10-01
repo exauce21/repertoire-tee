@@ -299,7 +299,6 @@ body {
 .rtee-prov-infobox {
   background: rgba(255, 255, 255, 0.92);
   border: 1.5px solid var(--border);
-  border-radius: 12px;
   padding: 10px 14px;
   margin-top: 12px;
   align-self: stretch;
@@ -311,12 +310,11 @@ body {
 }
 .rtee-prov-nom {
   font-family: "Helvetica", sans-serif;
-  font-weight: 800;
   color: var(--bleu);
-  font-size: 0.9rem;
+  font-size: 18px;
 }
 .rtee-prov-count {
-  font-size: 0.74rem;
+  font-size: 14px;
   color: var(--txt2);
   margin-top: 2px;
 }
