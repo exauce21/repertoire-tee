@@ -671,12 +671,12 @@ function rtee_render_iframe_page()
           </svg>
           <div class="rtee-legende">
             <div class="rtee-legende-item">
-              <span class="rtee-legende-dot" style="background:#1F36C2;"></span>
-              <span class="rtee-legende-txt">Prairies &amp; Nord</span>
-            </div>
-            <div class="rtee-legende-item">
               <span class="rtee-legende-dot" style="background:#F22D12;"></span>
               <span class="rtee-legende-txt">C.-B. &amp; Yukon</span>
+            </div>
+            <div class="rtee-legende-item">
+              <span class="rtee-legende-dot" style="background:#1F36C2;"></span>
+              <span class="rtee-legende-txt">Prairies &amp; Nord</span>
             </div>
             <div class="rtee-legende-item">
               <span class="rtee-legende-dot" style="background:#111533;"></span>
