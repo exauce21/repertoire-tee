@@ -189,6 +189,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 18px 16px;
+  padding-bottom: 0px;
   overflow: hidden;
 }
 .rtee-carte-title {
@@ -204,7 +205,7 @@ body {
 /* ── SVG MAP ── */
 #rtee-canada-map {
   width: 100%;
-  max-width: 480px;
+  
   height: auto;
   display: block;
 }
@@ -298,9 +299,9 @@ body {
 /* ── INFO BOX PROVINCE ── */
 .rtee-prov-infobox {
   background: rgba(255, 255, 255, 0.92);
-  border: 1.5px solid var(--border);
+  border: 1px solid var(--border);
   padding: 10px 14px;
-  margin-top: 12px;
+  margin-top: 20px;
   align-self: stretch;
   transition: opacity 0.18s;
 }
@@ -311,10 +312,10 @@ body {
 .rtee-prov-nom {
   font-family: "Helvetica", sans-serif;
   color: var(--bleu);
-  font-size: 18px;
+  font-size: 22px;
 }
 .rtee-prov-count {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--txt2);
   margin-top: 2px;
 }
