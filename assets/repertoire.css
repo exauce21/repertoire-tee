@@ -53,6 +53,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 50;
+  border: 1px solid var(--border);
 }
 .rtee-fpill {
   display: flex;
@@ -143,27 +144,31 @@ body {
 }
 .rtee-count-chip {
   width: 100%;
+  max-width: 100%;
+  min-width: 0;
   min-height: 56px;
+  padding: 6px 8px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 6px;
   align-self: center;
-  border: 1.5px solid var(--border);
+  border: 1px solid var(--border);
   border-radius: 50px;
   color: #111111;
   line-height: 1;
   text-align: center;
+  box-sizing: border-box;
 }
 .rtee-count-chip p {
   background: var(--rouge);
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1;
-  width: 40px;
-  height: 40px;
+  width: 34px;
+  height: 34px;
   border-radius: 50%;
-  margin-left: -10px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   display: flex;
@@ -172,7 +177,8 @@ body {
   flex: 0 0 auto;
 }
 .rtee-count-chip span {
-  font-size: 18px;
+  min-width: 0;
+  font-size: clamp(11px, 1.1vw, 14px);
   white-space: nowrap;
 }
 
@@ -688,7 +694,18 @@ body {
     height: 20px;
   }
   .rtee-count-chip {
+    width: auto;
+    min-height: 44px;
+    flex: 0 1 auto;
     margin-left: auto;
+  }
+  .rtee-count-chip p {
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+  }
+  .rtee-count-chip span {
+    font-size: 12px;
   }
   .rtee-layout {
     display: flex;
@@ -735,6 +752,13 @@ body {
   }
   .rtee-fpill select {
     max-width: 90px;
+  }
+  .rtee-count-chip {
+    width: 100%;
+    min-height: 40px;
+    flex: 1 0 100%;
+    justify-content: center;
+    margin-left: 0;
   }
   #rtee-canada-map {
     max-width: 100% !important;
