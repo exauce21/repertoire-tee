@@ -219,7 +219,7 @@
   function updateChip(n) {
     const c = document.getElementById("rtee-count-chip");
     c.style.display = "flex";
-    c.innerHTML = `${ICO.school}<strong>${n}</strong><span>école${n !== 1 ? "s" : ""}</span>`;
+    c.innerHTML = `<p>${n}</p><span>École${n !== 1 ? "s" : ""} trouvée${n !== 1 ? "s" : ""}</span>`;
   }
 
   function renderList(items) {
