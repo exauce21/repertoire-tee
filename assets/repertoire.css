@@ -147,22 +147,22 @@ body {
   max-width: 100%;
   min-width: 0;
   min-height: 56px;
+  margin-top: auto;
   padding: 6px 8px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 6px;
   align-self: center;
-  border: 1px solid var(--border);
-  border-radius: 50px;
+  background: var(--mango);
   color: #111111;
   line-height: 1;
   text-align: center;
   box-sizing: border-box;
 }
 .rtee-count-chip p {
-  background: var(--rouge);
-  color: #fff;
+  background: var(--bg);
+  color: #000;
   font-size: 15px;
   line-height: 1;
   width: 34px;
@@ -697,6 +697,7 @@ body {
     width: auto;
     min-height: 44px;
     flex: 0 1 auto;
+    margin-top: 0;
     margin-left: auto;
   }
   .rtee-count-chip p {
