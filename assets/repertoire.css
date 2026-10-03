@@ -45,7 +45,7 @@ body {
   grid-area: filtres;
   min-width: 0;
   background: #fff;
-  padding: 10px 16px;
+  padding: 16px 16px;
   display: flex;
   flex-direction: column;
   gap: 7px;
