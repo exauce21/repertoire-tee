@@ -300,6 +300,7 @@
   <div class="rtee-details">
     <div class="rtee-dtabs">
       <div class="rtee-dtab ${ct === "tee" ? "active" : ""}" data-tab="tee">${ICO.user} TÉÉ</div>
+      <div class="rtee-dtab ${ct === "ecole" ? "active" : ""}" data-tab="ecole">${ICO.school} École</div>
       <div class="rtee-dtab ${ct === "niveaux" ? "active" : ""}" data-tab="niveaux">${ICO.book} Niveaux</div>
     </div>
     <div class="rtee-dtab-content ${ct === "tee" ? "active" : ""}" data-content="tee">
