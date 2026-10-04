@@ -318,7 +318,7 @@
       </div>
     </div>
     <div class="rtee-dtab-content ${ct === "ecole" ? "active" : ""}" data-content="ecole">
-      <div class="rtee-info-row"><div class="rtee-info-lbl">Adresse</div><div class="rtee-info-val">${ICO.pin} ${e.adresse ? `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((e.adresse || "") + " " + (e.code_postal || "") + " " + (e.ville || ""))}" target="_blank" rel="noopener" style="color:var(--bleu);font-weight:600;text-decoration:none;">${X(e.adresse)} ${X(e.code_postal)}</a>` : "—"}</div></div>
+      <div class="rtee-info-row"><div class="rtee-info-lbl">Adresse</div><div class="rtee-info-val">${ICO.pin} ${e.adresse ? `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((e.adresse || "") + " " + (e.code_postal || "") + " " + (e.ville || ""))}" target="_blank" rel="noopener">${X(e.adresse)} ${X(e.code_postal)}</a>` : "—"}</div></div>
       <div class="rtee-info-row"><div class="rtee-info-lbl">Téléphone</div><div class="rtee-info-val">${ICO.phone} ${e.telephone ? `<a href="tel:${X(e.telephone)}">${X(e.telephone)}</a>` : "—"}</div></div>
       <div class="rtee-info-row"><div class="rtee-info-lbl">Courriel</div><div class="rtee-info-val">${ICO.mail} ${e.courriel ? `<a href="mailto:${X(e.courriel)}">${X(e.courriel)}</a>` : "—"}</div></div>
       <div class="rtee-info-row"><div class="rtee-info-lbl">Site web</div><div class="rtee-info-val">${ICO.globe} ${site}</div></div>
