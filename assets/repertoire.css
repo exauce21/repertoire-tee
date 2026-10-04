@@ -611,7 +611,6 @@ body {
 .rtee-info-val {
   font-size: 14px;
   color: var(--txt);
-  font-weight: 500;
   display: flex;
   align-items: center;
   gap: 4px;
@@ -619,7 +618,6 @@ body {
 .rtee-info-val a {
   color: var(--bleu);
   text-decoration: none;
-  font-weight: 600;
 }
 .rtee-info-val a:hover {
   text-decoration: underline;
