@@ -648,12 +648,11 @@ body {
   margin-top: 2px;
 }
 .rtee-niv-pill {
-  background: var(--bg);
-  border: 0.8px solid var(--border);
+  background: #ffb7263e;
   border-radius: 50px;
-  padding: 2px 7px;
+  padding: 4px 9px;
   font-size: 14px;
-  color: var(--txt2);
+  color: var(--noir);
 }
 
 /* ── ÉTATS ── */
